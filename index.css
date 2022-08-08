@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: url(./images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'League Spartan' sans-serif;
+}
+.container {
+    position: relative;
+    background-color: hsl(0, 0%, 100%); 
+    /* background-color: green;   */
+    width: 70%;
+    height: auto;
+    margin-top: 70px;
+}
+.heading {
+    width: 350px;
+    height: auto;
+}
+.heading h2 {
+    color: hsl(300, 43%, 22%);
+    font-size: 40px;
+    margin-top: 0;
+    font-weight: 700;
+}
+.heading p {
+    font-size: 15px;
+    color: hsl(303, 10%, 53%);
+    line-height: 20px;
+    margin-top: -20px;
+}
+.rating {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    /* background-color: green; */
+    height: 300px;
+    width: 450px;
+    margin-top: 40px;
+}
+/* first rating */
+.first-rating {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 2px;
+    background-color: hsl(300, 24%, 96%);
+}
+.first-rating img {
+    margin-left: 4px;
+}
+.first-rating span {
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: hsl(300, 43%, 22%);
+}
+/* second rating */
+.second-rating {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+    margin-left: 45px;
+    padding: 10px 2px;
+    background-color: hsl(300, 24%, 96%);
+}
+.second-rating img {
+    margin-left: 4px;
+}
+.second-rating span {
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: hsl(300, 43%, 22%);
+}
+/* third rating */
+.third-rating {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 350px;
+    height: 45px;
+    margin-top: 15px;
+    border: none;
+    margin-left: 90px;
+    padding: 10px 12px;
+    background-color: hsl(300, 24%, 96%);
+}
+.third-rating img {
+    margin-left: 2px;
+}
+.third-rating span {
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: hsl(300, 43%, 22%);
+}
+.users {
+    display: flex;
+    margin-top: 50px;
+}
+/* user1 */
+.user1 {
+    cursor: pointer;
+    position: relative;
+    width: 290px;
+    height: 190px;
+    padding: 30px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+}
+.user1 img {
+    width: 40px;
+    float: left;
+    height: 40px;
+    border-radius: 50px;
+}
+.user1 h5 {
+    position: absolute;
+    font-size: 15px;
+    top: 5px;
+    left: 90px;
+}
+.user1 h6 {
+    position: absolute;
+    font-size: 15px;
+    top: 15px;
+    left: 90px;
+    color: hsl(333, 80%, 67%);
+}
+.user1 p {
+    margin-top: 60px;
+    line-height: 18px;
+    font-size: 13.5px;
+    color: hsl(300, 24%, 96%);
+}
+/* user2 */
+.user2 {
+    position: relative;
+    width: 290px;
+    height: 190px;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding: 30px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.user2 img {
+    width: 40px;
+    float: left;
+    height: 40px;
+    border-radius: 50px;
+}
+.user2 h5 {
+    position: absolute;
+    font-size: 15px;
+    top: 5px;
+    left: 90px;
+    color: hsl(300, 24%, 96%);
+}
+.user2 h6 {
+    position: absolute;
+    font-size: 15px;
+    top: 15px;
+    left: 90px;
+    color: hsl(333, 80%, 67%);
+}
+.user2 p {
+    margin-top: 60px;
+    font-size: 13.5px;
+    line-height: 18px;
+}
+/* user3 */
+.user3 {
+    position: relative;
+    width: 290px;
+    height: 190px;
+    margin-left: 25px;
+    margin-top: 35px;
+    padding: 30px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.user3 img {
+    width: 40px;
+    float: left;
+    height: 40px;
+    border-radius: 50px;
+}
+.user3 h5 {
+    position: absolute;
+    font-size: 15px;
+    top: 5px;
+    left: 90px;
+}
+.user3 h6 {
+    position: absolute;
+    font-size: 15px;
+    top: 15px;
+    left: 90px;
+    color: hsl(333, 80%, 67%);
+}
+.user3 p {
+    margin-top: 60px;
+    font-size: 13.5px;
+    line-height: 18px;
+    color: hsl(300, 24%, 96%);
+}
+
+@media only screen and (min-width: 375px;) and (max-width: 1440px) {
+    .container {
+        display: block
+    }
+    
+}
