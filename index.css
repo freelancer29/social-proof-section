@@ -13,8 +13,7 @@ body {
 .container {
     position: relative;
     background-color: hsl(0, 0%, 100%); 
-    /* background-color: green;   */
-    width: 70%;
+    width: 60%;
     height: auto;
     margin-top: 70px;
 }
@@ -37,15 +36,14 @@ body {
 .rating {
     position: absolute;
     top: -20px;
-    right: 20px;
-    /* background-color: green; */
+    right: 8rem;
     height: 300px;
-    width: 450px;
+    width: 300px;
     margin-top: 40px;
 }
 /* first rating */
 .first-rating {
-    width: 350px;
+    width: 300px;
     display: flex;
     justify-content: center;
     height: 45px;
@@ -67,7 +65,7 @@ body {
 .second-rating {
     display: flex;
     justify-content: center;
-    width: 350px;
+    width: 300px;
     height: 45px;
     border-radius: 5px;
     margin-top: 15px;
@@ -90,7 +88,7 @@ body {
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    width: 350px;
+    width: 300px;
     height: 45px;
     margin-top: 15px;
     border: none;
@@ -224,7 +222,61 @@ body {
     color: hsl(300, 24%, 96%);
 }
 
+@media screen and (min-width: 100px) and (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20rem;
+    }
+    .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading h2 {
+        text-align: center;
+    }
+    .heading p {
+        font-size: 19.5px;
+        line-height: 23px;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .rating {
+        position: relative;
+        margin-left: 15rem;
+        text-align: center;
+    }
+    .first-rating, .second-rating, .third-rating {
+        margin-left: 0;
+        display: block;
+        width: 20rem;
+        height: 70px;
+    }
+    .first-rating, span {
+        font-size: 20px;
+        display: block;
+        font-weight: bold;
+        margin: 0;
+    }
+    .users {
+        display: block;
+        margin-top: -35px;
+    }
+    .user2, .user3 {
+        margin-left: 0;
+    }
+    .user3 {
+        margin-top: 15px;
+    }
+}
 
 
-
-
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .container {
+        width: 50rem;
+    }
+    
+}
